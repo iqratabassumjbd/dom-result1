@@ -45,7 +45,7 @@ for (let i = 0; i < document.querySelectorAll(".drum").length; i++) {
   document
     .querySelectorAll(".drum")
     [i].addEventListener("touchstart", function () {
-      var buttonInnerHTML = this.innerHTML;
+      let buttonInnerHTML = this.innerHTML;
 
       makeSound(buttonInnerHTML);
       buttonAnimation(buttonInnerHTML);
