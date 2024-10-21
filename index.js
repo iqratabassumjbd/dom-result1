@@ -198,35 +198,36 @@ document.addEventListener("keydown", function (event) {
 });
 
 // through single switch for button clicked and kepressed
+
 let keyboard1;
 function makeSound(key) {
   switch (key) {
     case "w":
-      keyboard1 = new Audio("./sounds/crash.mp3");
+      keyboard1 = new Audio("./Drum Kit Starting Files/sounds/crash.mp3");
       keyboard1.play();
       break;
     case "a":
-      keyboard1 = new Audio("./sounds/kick-bass.mp3");
+      keyboard1 = new Audio("./Drum Kit Starting Files/sounds/kick-bass.mp3");
       keyboard1.play();
       break;
     case "s":
-      keyboard1 = new Audio("./sounds/snare.mp3");
+      keyboard1 = new Audio("./Drum Kit Starting Files/sounds/snare.mp3");
       keyboard1.play();
       break;
     case "d":
-      keyboard1 = new Audio("./sounds/tom-1.mp3");
+      keyboard1 = new Audio("./Drum Kit Starting Files/sounds/tom-1.mp3");
       keyboard1.play();
       break;
     case "j":
-      keyboard1 = new Audio("./sounds/tom-2.mp3");
+      keyboard1 = new Audio("./Drum Kit Starting Files/sounds/tom-2.mp3");
       keyboard1.play();
       break;
     case "k":
-      keyboard1 = new Audio("./sounds/tom-3.mp3");
+      keyboard1 = new Audio("./Drum Kit Starting Files/sounds/tom-3.mp3");
       keyboard1.play();
       break;
     case "l":
-      keyboard1 = new Audio("./sounds/tom-4.mp3");
+      keyboard1 = new Audio("./Drum Kit Starting Files/sounds/tom-4.mp3");
       keyboard1.play();
       break;
     default:
